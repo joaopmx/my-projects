@@ -1,0 +1,106 @@
+* {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box; 
+
+        font-family: "Merriweather", serif;
+        font-style: normal;
+}
+
+body {
+    background-color: #BEC8AC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 64px;
+    margin: 64px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    width: 70vw;
+    gap: 64px;
+}
+
+.project-list {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.list .item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px
+}
+
+.item .item-img img {
+    width: 240px;
+    border: 8px dashed #000000;
+}
+
+.item .item-information h4 {
+    font-size: 22px;
+
+}
+
+.item .item-information h4,
+.item .item-information p {
+    padding-bottom: 6px;
+}
+
+.project-form {
+    padding-bottom: 72px;
+}
+
+.project-form,
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-form h2 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 32px;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#submit-btn {
+    background-color: #4CAF50;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
